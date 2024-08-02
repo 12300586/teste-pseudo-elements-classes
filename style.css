@@ -1,0 +1,59 @@
+div{
+    width: 40%;
+    height: 300px;
+    border: solid 2px;
+}
+
+.um>p:first-child{
+    color: brown;
+    font-weight: 900;
+}
+
+.um>p:last-child{
+    background-color: yellow;
+}
+
+h1:not(.dois){
+    color: blueviolet;
+}
+
+.tres li:nth-child(2){
+    color: blue;
+}
+
+.tres>p:nth-last-child(3){
+    background-color: chartreuse;
+}
+
+.tres li:hover{
+    background-color: aquamarine;
+}
+
+#radio-button input:checked{
+    height: 40px;
+    width: 40px;
+}
+
+.quatro>p::first-letter{
+    color: darkorange;
+    font-weight: bold;
+}
+
+.cinco>p::first-line{
+    font-size: 30px;
+}
+
+.seis>p::after{
+    content: " - textinho do lorem ipsum";
+    font-weight: bold;
+}
+
+.seis>p::before{
+    content: "olá oi oi - ";
+    font-weight: bold;
+    color: blue;
+}
+
+#sete li::marker{
+    color: red;
+}
